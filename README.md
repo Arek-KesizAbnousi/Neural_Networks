@@ -37,21 +37,18 @@ The project is organized into modular components for clarity and maintainability
 ```plaintext
 project/
 ├── data/
-│   └── sonar_data.csv            # Dataset (Sonar dataset used in the analysis)
-├── models/                       # Machine learning model definitions
-│   ├── neural_networks.py        # Neural network architectures
-│   ├── classification_methods.py # LDA, QDA, RDA, SVM, Naïve Bayes implementations
-│   └── __init__.py               # Marks this folder as a Python package
-├── utils/                        # Utility scripts
-│   ├── data_preprocessing.py     # Data loading and preprocessing functions
-│   ├── evaluation.py             # Model evaluation functions
-│   └── __init__.py               # Marks this folder as a Python package
+│   └── sonar_data.csv            # Dataset
 ├── results/                      # Results and figures
 │   ├── accuracy_table.csv        # Accuracy results from experiments
 │   └── figures/                  # Plots and figures generated
-├── main.py                       # Main script to orchestrate experiments
+├── data_preprocessing.py         # Data loading and preprocessing functions
+├── evaluation.py                 # Model evaluation logic
+├── neural_networks.py            # Neural network architectures
+├── classification_methods.py     # Classical classification methods
+├── main.py                       # Main script
 ├── requirements.txt              # Lists required Python libraries
-└── README.md                     # Project documentation
+└── README.md                     # Documentation
+
 ```
 ## Code Implementation
 
