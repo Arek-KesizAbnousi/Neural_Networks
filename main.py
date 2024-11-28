@@ -2,10 +2,10 @@
 
 import numpy as np
 import pandas as pd
-from utils.data_preprocessing import load_and_preprocess_data
-from utils.evaluation import evaluate_models
-from models.neural_networks import get_neural_network_models
-from models.classification_methods import get_classification_models
+from data_preprocessing import load_and_preprocess_data
+from evaluation import evaluate_models
+from neural_networks import get_neural_network_models
+from classification_methods import get_classification_models
 
 def main():
     # Load and preprocess data
