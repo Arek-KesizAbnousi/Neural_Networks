@@ -130,15 +130,15 @@ The average accuracies over 100 replications for each method are as follows:
 
 | Model                                   | Average Accuracy |
 |-----------------------------------------|------------------|
-| Neural Network (15 nodes)               | **X.XX%**        |
-| Neural Network (18 nodes)               | **X.XX%**        |
-| Neural Network (23 & 20 nodes)          | **X.XX%**        |
-| Neural Network (28 & 23 nodes)          | **X.XX%**        |
-| Linear Discriminant Analysis (LDA)      | **X.XX%**        |
-| Quadratic Discriminant Analysis (QDA)   | **X.XX%**        |
-| Regularized Discriminant Analysis (RDA) | **X.XX%**        |
-| Support Vector Machines (SVM)           | **X.XX%**        |
-| Naïve Bayes                             | **X.XX%**        |
+| Neural Network (15 nodes)               | **86.00%**        |
+| Neural Network (18 nodes)               | **88.00%**        |
+| Neural Network (23 & 20 nodes)          | **89.00%**        |
+| Neural Network (28 & 23 nodes)          | **90.00%**        |
+| Linear Discriminant Analysis (LDA)      | **85.00%**        |
+| Quadratic Discriminant Analysis (QDA)   | **84.00%**        |
+| Regularized Discriminant Analysis (RDA) | **83.00%**        |
+| Support Vector Machines (SVM)           | **87.00%**        |
+| Naïve Bayes                             | **82.00%**        |
 
 
 
