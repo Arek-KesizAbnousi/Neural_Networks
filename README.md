@@ -2,7 +2,13 @@
 
 ## Introduction
 
-This project analyzes the Sonar dataset using various neural network architectures and classical classification methods to enhance classification accuracy. We perform 100 independent replications (i.e., 100 independent training/testing splits) to ensure the robustness of our results.
+This project analyzes the Sonar dataset using various neural network architectures and classical classification methods classification methods: Linear Discriminant Analysis (LDA). Quadratic Discriminant Analysis (QDA). Regularized Discriminant Analysis (RDA).
+Support Vector Machines (SVMs).
+Naïve Bayes.
+
+Comparing Classification Accuracy among all models.
+
+We perform 100 independent replications (i.e., 100 independent training/testing splits) to ensure the robustness of our results.
 
 ## Objectives
 
